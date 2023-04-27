@@ -4,7 +4,7 @@ Bundler.require
 require_relative 'player'
 require_relative 'board'
 require_relative 'game'
-require_relative '../view/show'
+require_relative 'show'
 
 class Application
   def perform
